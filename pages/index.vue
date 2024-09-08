@@ -1,11 +1,14 @@
 <script setup>
-useSeoMeta({
+useHead({
   title: "KNWS News website",
+  description: "e-newspaper app using nuxtjs",
+  author: "Temur Komilov (https://t.me/timcoder)",
+});
+
+useSeoMeta({
   ogImage: "/favicon.ico",
   ogTitle: "KNWS",
-  description: "e-newspaper app using nuxtjs",
   ogDescription: "e-newspaper app using nuxtjs",
-  author: "Temur Komilov (https://t.me/timcoder)",
 });
 
 import { useSiteStore } from "~/stores/site";
