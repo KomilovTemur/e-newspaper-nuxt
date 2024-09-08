@@ -6,15 +6,15 @@ export const useSiteStore = defineStore("site", {
     loading: false,
     news: null,
     categories: [
+      "general",
       "business",
       "entertainment",
-      "general",
       "health",
       "science",
       "sports",
       "technology",
     ],
-    category: "business",
+    category: "general",
   }),
   actions: {
     setLoading(payload) {
